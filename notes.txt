@@ -1,0 +1,23 @@
+HTML
+
+7x6 board (can make board with JS or have blank board initially in HTML)
+7x7 if we want the user to click on the first row to put their piece in.
+
+CSS
+
+Border around the squares
+different class for player 1 and 2, border radius it to a circle inside the square
+
+JS
+
+click event handler on the column or space to put a piece in.
+logic to determine if p1 or p2 turn
+logic to determine which row the piece falls to in the column (first free space in a column)
+array of arrays to represent game board
+logic to check winner(horizontal, vertical, diagonal)
+check if there is a winner each time a piece is entered.
+
+functions(create game-board<array of arrays in js>, update game-board, check winner, pass turn, input piece, reset game, congratulate winner)
+
+general
+P1 starts as red -> P2 turn -> switch back and forth taking inputs until board full or there is a winner
